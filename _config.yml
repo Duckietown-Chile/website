@@ -1,14 +1,36 @@
-port: 4000
+# site settings
+title: Duckietown
+subtitle: Chile
+email:
+description: Duckietown Engineering ha abierto su subsidiaria en Chile, Duckietown Chile y estamos buscando a los mejores ingenierios e ingenieras para que se unan a nuestro nuevo proyecto. Necesitamos tu ayuda para desarrollar vehículos autónomos para ayudar a la producción agrícola en Chile.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: # the base hostname & protocol for your site
+author:
+street_address: Beauchef 851
+city: Santiago
+state:
+zip_code: 8370456
+country: Chile
+phone:
 
-links:
-    -title: Home
-     url:/index
+# homepage tiles
+tiles-source: posts # accepts "posts" or "pages"
+tiles-count: 6
 
-    -title: Proyecto
-     url:/proyecto
+# social settings
+500px_url:
+facebook_url: https://www.facebook.com/duckietowncl/
+github_url: https://github.com/Duckietown-Chile
+gitlab_url:
+googleplus_url:
+instagram_url: https://www.instagram.com/duckietowncl/
+linkedin_url: https://www.linkedin.com/company/16216196/
+pinterest_url:
+slack_url:
+twitter_url:
 
-    -title: Curso
-     url:/proyecto/curso 
+# build settings
+markdown: kramdown
 
-    -title: Material del Curso
-     url:/material-del-curso
+sass:
+  style: compressed
