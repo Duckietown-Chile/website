@@ -1,0 +1,16 @@
+
+- name: 'Proyecto 1'
+  pic:
+  url: 'Aqui va el url'
+
+- name: 'Proyecto 2'
+  pic:
+  url: 'Aqui va el url'
+
+- name: 'Proyecto 3'
+  pic:
+  url: 'Aqui va el url'
+
+- name: 'Resto de proyectos'
+  pic:
+  url: 'Aqui va el url'

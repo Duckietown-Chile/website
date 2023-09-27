@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Empresa
-image: assets/images/banner/team.png
+image: assets/images/banner/team2.png
 ---
 
 <p>
