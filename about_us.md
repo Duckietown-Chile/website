@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Nosotros
-image: assets/images/banner/team2.png
+image: assets/images/banner/team.png
 ---
 
 <p>Duckietown Engineering Chile nace de la necesidad de un pueblo de Estados Unidos cuyos habitantes patunos fueron deportados a Canada y por políticas migratorias un grupo importante llegó a Chile.</p>
