@@ -1,67 +1,95 @@
+Poner imagenes o texto para rellenar por mientras, para que sean distintas para cada año deben ponerse en los md de cadas año.
+<style>
+  details > summary {
+  padding: 1%;
+  width: 100%;
+  background-color: white;
+  border: none;
+  box-shadow: 10% 10% 20% ;
+  cursor: pointer;
+}
 
-<h3>Equipo</h3>
+  details > details{
+  background-color:blue;
+  padding: 4%;
+  margin: 0;
+  box-shadow: 10% 10% 20% blue;
+}
 
-<div class="row"> 
+</style>
+<p>
+<details>
+  <summary style="font-size: 180%;font-weight: 700;color:black"> Equipo </summary>
+  <div class="row"> 
 
-{% for member in include.members %}
-	<div class="4u 12u$(small)">
-    {% if member.pic == nil %}
-      <img src="/assets/images/capacitaciones/none.jpg" />
-    {% else %}
-      <img src="/assets/images/capacitaciones/{{include.year}}/members/{{ member.pic }}" />
-    {% endif %}
+  {% for member in include.members %}
+    <div class="4u 12u$(small)">
+      {% if member.pic == nil %}
+        <img src="/assets/images/capacitaciones/none.jpg" />
+      {% else %}
+        <img src="/assets/images/capacitaciones/{{include.year}}/members/{{ member.pic }}" />
+      {% endif %}
 
-    <p>
-    <strong> {{ member.name }} </strong> <br />
-    {{ member.position }}
-    </p> 
+      <p>
+      <strong> {{ member.name }} </strong> <br />
+      {{ member.position }}
+      </p> 
 
-  </div>
-{% endfor %}
-
-</div>
-
-
-<h3>Ingenier@s Trainee</h3>
-
-<div class="row">
+    </div>
+    
+  {% endfor %}
   
+  </div>
+  <br/>
+</details>
+</p>
 
-{% for trainee in include.trainees %}
-  <div class="4u 12u$(small)">
-    {% if trainee.pic == nil %}
-      <img src="/assets/images/capacitaciones/none.jpg" />
-    {% else %}
-      <img src="/assets/images/capacitaciones/{{include.year}}/trainees/{{ trainee.pic }}" />
-    {% endif %}
-    <p>
-    <strong> {{ trainee.name }} </strong>
-    </p> 
+<p>
+<details>
+  <summary style="font-size: 180%;font-weight: 700;color:black"> Ingenier@s Trainee </summary>
+  <div class="row">
+    
+
+  {% for trainee in include.trainees %}
+    <div class="4u 12u$(small)">
+      {% if trainee.pic == nil %}
+        <img src="/assets/images/capacitaciones/none.jpg" />
+      {% else %}
+        <img src="/assets/images/capacitaciones/{{include.year}}/trainees/{{ trainee.pic }}" />
+      {% endif %}
+      <p>
+      <strong> {{ trainee.name }} </strong>
+      </p> 
+
+    </div>
+  {% endfor %}
 
   </div>
-{% endfor %}
+  <br/>
+</details>
+</p>
 
-</div>
-<br />
+<p>
+<details>
+  <summary style="font-size: 180%;font-weight: 700;color:black"> Proyectos </summary>
+  <div class="row">
 
-<h3> Proyectos </h3>
+  {% for proyecto in include.proyectos %}
+    <div class="4u 12u$(small)">
+      {% if proyecto.pic == nil %}
+        <img src="/assets/images/capacitaciones/none.jpg" />
+      {% else %}
+        <img src="/assets/images/capacitaciones/{{include.year}}/members/{{ proyecto.pic }}" />
+      {% endif %}
 
-<div class="row">
+      <p>
+      <strong> {{ proyecto.name }} </strong> <br />
+      {{ proyecto.url }}
+      </p> 
 
-{% for proyecto in include.proyectos %}
-  <div class="4u 12u$(small)">
-    {% if proyecto.pic == nil %}
-      <img src="/assets/images/capacitaciones/none.jpg" />
-    {% else %}
-      <img src="/assets/images/capacitaciones/{{include.year}}/members/{{ member.pic }}" />
-    {% endif %}
-
-    <p>
-    <strong> {{ proyecto.name }} </strong> <br />
-    {{ proyecto.url }}
-    </p> 
+    </div>
+  {% endfor %}
 
   </div>
-{% endfor %}
-
-</div>
+</details>
+</p>

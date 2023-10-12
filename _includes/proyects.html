@@ -1,0 +1,19 @@
+<div class="row">
+{% for proyecto in include.proyectos %}
+  
+  <div class="6u 12u$(small)">
+    <br/>
+    <h3>{{proyecto.name}}</h3>
+    {% if proyecto.pic == nil %}
+      <img src="/assets/images/capacitaciones/none.jpg" />
+    {% else %}
+      <img src="/assets/images/capacitaciones/{{include.year}}/members/{{ proyecto.pic }}" />
+    {% endif %}
+
+    <p style="font-size: 90%;font-weight: 400;color:black;">
+      {{proyecto.desc}}</p>
+
+    <a href="{{proyecto.url}}" target="_blank">Github </a>
+  </div>
+{% endfor %}
+</div>
