@@ -1,6 +1,6 @@
 # site settings
 title: Duckietown
-subtitle: Chile
+subtitle: Engineering Chile
 email:
 description: Duckietown Engineering ha abierto su subsidiaria en Chile, Duckietown Chile y estamos buscando a los mejores ingenierios e ingenieras para que se unan a nuestro nuevo proyecto. Necesitamos tu ayuda para desarrollar vehículos autónomos para ayudar a la producción agrícola en Chile.
 baseurl: "" # the subpath of your site, e.g. /blog

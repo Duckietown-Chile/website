@@ -1,36 +1,35 @@
 ---
 layout: page
-title: Duckiebot
-image: assets/images/doki1.jpg
+title:
+image: /assets/images/robot.png
 ---
 
-<p>
-En Duckietown Chile, usamos un robot modificado llamado <emph>Duckiebot</emph>, a pesar de que no es exactamente el mismo robot de nuestra empresa padre. Puesto este fue modificado basandose en el Duckiebot desarrollado por el MIT en el año 2017, para adaptarse a las características especiales de Duckietown Chile.
-</p>
+## Duckiebot
 
-<p>
-En particular, le hemos cambiado el <emph>Shield</emph> por uno diseñado por nosotros mismos. Esto nos permite abaratar costos y tener mayor control sobre el hardware especializado de Duckietown Chile.
-</p>
+El robot que utilizamos para nuestro programa de capacitación es el Duckiebot Mark 3. Esta basado en la versión <a href="https://docs.duckietown.com/daffy/opmanual-duckiebot/preliminaries_hardware/get_hardware/index.html#acquiring-the-parts-for-a-db17" target="blank">DB17</a> del robot utilizado por nuestros amigos de la Fundación Duckietown, rediseñado según la disponibilidad de componentes locales y las características de nuestro programa.
 
+<!--
 <div class="row">
-	<div class="12u 12u$(small)"><!--Cambiar a "6u 12u$(small)" para poder colocar imagen a la derecha del texto.-->
-		<h3>Shield</h3>
-		<p>El Raspberry Pi 3 Shield es una placa de expansión diseñada para su uso con una Raspberry Pi 3 (o modelos compatibles) y un Arduino ProMini 168. Su función principal es establecer una comunicación serial confiable entre estos dos dispositivos, permitiendo que la Raspberry Pi y el Arduino se comuniquen de manera eficiente.</p>
+	<div class="5u 12u$(small)">
+		<img src="/assets/images/robot1.jpg" />
 	</div>
-	<div class="6u$ 12u$(small)">
-		<!--foto acá-->
+	<div class="7u$ 12u$(small)">
+		<p>El robot que utilizamos para nuestro programa de capacitación es el Duckiebot Mark 3. Esta basado en la versión <a href="https://docs.duckietown.com/daffy/opmanual-duckiebot/preliminaries_hardware/get_hardware/index.html#acquiring-the-parts-for-a-db17" target="blank">DB17</a> del robot utilizado por nuestros amigos de la Fundación Duckietown, rediseñado según la disponibilidad de componentes locales y las características de nuestro programa.</p>
 	</div>
+
 </div>
+<br>
+-->
+
+## Duckiebot Shield v2.0
+
+Diseñamos nuestro propio<a href="https://github.com/Duckietown-Chile/duckietown_arduino/tree/master/pcb" target="blank">Duckietown Shield v2.0</a>, que permite el control de los motores, y ofrece la posibilidad de integrar otros sensores para aumentar las capacidades del robot. 
+
+En conjunto con el Shield, se diseñaron: el <a href="https://github.com/Duckietown-Chile/duckietown_arduino" target="blank">firmware</a> que habilita las funcionalidades del Shield, y el que contiene los drivers necesarios para la integración del shield con el sistema de control del Duckiebot.
+
+## Duckiebot Software
+El Duckiebot Mark 3 utiliza el framework <a href="https://www.ros.org" target="blank">ROS</a> para su funcionamiento. El sistema de software del robot está disponible en nuestro repositorio público en <a href="https://github.com/Duckietown-Chile/Software" target="blank">github</a>.
 
 
-<hr class="major" />
 
-<h2 id="adquirir">Adquirir</h2>
 
-<p>
-Nuestra versión del Duckiebot Mark 3 no está a la venta, fue desarrollada con fines educativos para el programa de entrenamiento de Duckietown Chile. Sin embargo si deseas adquirir Ducikebots y toda la información necesaria para desarrollar la experiencia de Duckietown en tu institución educativa, puedes visitar la página de nuestros colaboradores de la <a href="http://get.duckietown.org">Fundación Duckietown</a>.
-</p>
-
-<p>
-Si desean que nosotros les coticemos y armemos sus Duckiebot para necesidades de su curso/empresa, contáctenos en nuestra página de <a href="{{site.facebook_url}}" target="_blank">facebook</a>.
-</p>

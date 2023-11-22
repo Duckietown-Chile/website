@@ -1,8 +1,9 @@
 ---
 layout: page
-title: "Duckietown: Sin Corbata"
+title: 
 image: assets/images/pic11.jpg
 ---
+## Duckietown: Sin Corbata
 
 **Duckietown Engeenering Chile** es una empresa ficticia formada por un equipo interdisciplinario de estudiantes de la Facultad de Ciencias Físicas y Matemáticas de la Universidad de Chile (FCFM). Esta empresa fue, y sigue siendo, la escenografía sobre la cual se monta el curso Duckietown.
 

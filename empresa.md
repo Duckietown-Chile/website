@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Duckietown Engineering Chile"
+title:
 image: assets/images/banner/team.png
 ---
 ## Duckietown Engineering Chile
