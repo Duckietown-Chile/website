@@ -1,6 +1,6 @@
 ---
 layout: page
-title:
+title: ""
 image: /assets/images/robot.png
 ---
 
