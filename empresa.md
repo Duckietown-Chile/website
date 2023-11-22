@@ -3,6 +3,7 @@ layout: page
 title:
 image: assets/images/banner/team.png
 ---
+
 ## Duckietown Engineering Chile
 Nosotros somos Duckietown Engineering Chile, una subsidiaria de [Duckietown Engineering Co.](https://duckietown.com/) Nos instalamos el 2016 en Chile, empezando nuestras operaciones en la Facultad de Ciencias Físicas y Matemáticas de la Universidad de Chile.
 
