@@ -1,5 +1,6 @@
 ---
 layout: page
+title: ""
 image: assets/images/banner/team.png
 ---
 

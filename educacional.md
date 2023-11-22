@@ -1,5 +1,6 @@
 ---
 layout: page
+title: ""
 image: assets/images/pic11.jpg
 ---
 ## Duckietown: Sin Corbata
